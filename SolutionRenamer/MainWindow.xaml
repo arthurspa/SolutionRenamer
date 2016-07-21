@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SolutionRenamer"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Solution Renamer" Height="235.527" Width="576.316" ResizeMode="NoResize">
     <Grid>
-        
+        <Label x:Name="label" Content="Folder:" HorizontalAlignment="Left" Margin="127,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Company Name:" HorizontalAlignment="Left" Margin="75,98,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Project Name:" HorizontalAlignment="Left" Margin="89,129,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1_Copy" Content="Company Name Placeholder:" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2_Copy" Content="Project Name Placeholder:" HorizontalAlignment="Left" Margin="24,67,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxFolder" HorizontalAlignment="Left" Height="23" Margin="190,14,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBoxCompanyNamePlaceholder" HorizontalAlignment="Left" Height="23" Margin="190,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBoxProjectNamePlaceholder" HorizontalAlignment="Left" Height="23" Margin="190,71,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBoxCompanyName" HorizontalAlignment="Left" Height="23" Margin="190,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="275"/>
+        <TextBox x:Name="textBoxProjectName" HorizontalAlignment="Left" Height="23" Margin="190,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="275"/>
+        <Button x:Name="buttonRun" Content="Run" HorizontalAlignment="Left" Margin="483,167,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="buttonBrowseFile" Content="Browse..." HorizontalAlignment="Left" Margin="483,14,0,0" VerticalAlignment="Top" Width="75"/>
+
     </Grid>
 </Window>
