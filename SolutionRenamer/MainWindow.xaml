@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SolutionRenamer"
         mc:Ignorable="d"
-        Title="Solution Renamer" Height="235.527" Width="576.316" ResizeMode="NoResize">
+        Title="Solution Renamer" Height="235.527" Width="588.492" ResizeMode="NoResize">
     <Grid>
         <Label x:Name="label" Content="Folder:" HorizontalAlignment="Left" Margin="127,10,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label1" Content="Company Name:" HorizontalAlignment="Left" Margin="75,98,0,0" VerticalAlignment="Top"/>
@@ -18,7 +18,7 @@
         <TextBox x:Name="textBoxCompanyName" HorizontalAlignment="Left" Height="23" Margin="190,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="275"/>
         <TextBox x:Name="textBoxProjectName" HorizontalAlignment="Left" Height="23" Margin="190,133,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="275"/>
         <Button x:Name="buttonRun" Content="Run" HorizontalAlignment="Left" Margin="483,167,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="buttonBrowseFile" Content="Browse..." HorizontalAlignment="Left" Margin="483,14,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="buttonBrowseFolder" Content="Browse..." HorizontalAlignment="Left" Margin="483,14,0,0" VerticalAlignment="Top" Width="75" Click="buttonBrowseFolder_Click"/>
 
     </Grid>
 </Window>
